@@ -17,6 +17,8 @@ dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.6"]
 
 [project.urls]
 Homepage = "https://github.com/MortisBot/nonebot-plugin-quote-card"
+Issues = "https://github.com/MortisBot/nonebot-plugin-quote-card/issues"
+Repository = "https://github.com/MortisBot/nonebot-plugin-quote-card"
 
 [build-system]
 requires = ["hatchling"]
