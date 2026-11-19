@@ -42,3 +42,19 @@ qq-login/
 
 # 不提交包级 lock（库项目）
 **/uv.lock
+
+# 部署配置 / 登录态 / 凭据（绝不入库）
+nonebot.env
+*.env
+!.env.example
+docker-compose.yml
+compose.yml
+napcat/
+qq-login/
+certs/
+secrets/
+data/
+assets/
+*.db
+*.sqlite
+*.log
