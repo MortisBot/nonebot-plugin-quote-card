@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+**/.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 各包的构建产物（上面的 build/ dist/ 已覆盖，这里显式列出便于审查）
+packages/*/dist/
+packages/*/build/
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.scan-blocklist
+
+# 运行数据/资产（绝不入库）
+data/
+assets/
+*.adx
+*.db
+*.sqlite
+*.log
+qq-login/
+
+# 编辑器/系统
+.idea/
+.vscode/
+.DS_Store
+
+# 不提交包级 lock（库项目）
+**/uv.lock
