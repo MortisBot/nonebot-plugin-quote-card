@@ -1,4 +1,7 @@
 <div align="center">
+  <a href="https://v2.nonebot.dev/store">
+    <img src="https://raw.githubusercontent.com/fllesser/nonebot-plugin-template/refs/heads/resource/.docs/NoneBotPlugin.svg" width="310" alt="NoneBotPlugin">
+  </a>
 
 # nonebot-plugin-quote-card
 
